@@ -1,0 +1,13 @@
+package com.nj.play.redis.redisson.redisspringdemo;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class RedisSpringDemoApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
