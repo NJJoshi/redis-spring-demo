@@ -24,6 +24,8 @@ public class RedissonConfig {
                     .addSentinelAddress("redis://127.0.0.1:26380")
                     .addSentinelAddress("redis://127.0.0.1:26381")
                     .addSentinelAddress("redis://127.0.0.1:26382")
+//                    .setUsername("sam")
+//                    .setPassword("sam@123")
                     .setCheckSentinelsList(false) // Crucial because Sentinels are in +sdown
                     .setConnectTimeout(10000)
                     .setTimeout(10000)
